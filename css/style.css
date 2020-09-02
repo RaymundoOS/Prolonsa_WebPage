@@ -43,13 +43,13 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: silver; }
+  background: rgba(196, 13, 13, 0.856); }
   .carousel .carousel-item {
     height: 500px; }
     .carousel .carousel-item img {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: auto;
+      left: auto;
       min-height: 300px; }
 
 #carouselButton {
@@ -94,8 +94,40 @@ body {
 
 }
 
-#textMid{
+#textMidTop{
+ 
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: oblique;
-  font-size: 4rem;
+  font-size: 2rem;
+  border-left: rgba(247, 232, 22, 0.849) 3px inset;
+  border-bottom: rgba(247, 232, 22, 0.849) 3px inset;
+}
+
+#textMidTopXS{
+ 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-size: 1rem;
+  border-left: rgba(247, 232, 22, 0.849) 1px inset;
+  border-bottom: rgba(247, 232, 22, 0.849) 1px inset;
+}
+
+#textMidBut{
+
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-size: 2rem;
+  border-top: rgba(17, 21, 245, 0.822)  3px inset;
+  border-right: rgba(17, 21, 245, 0.822) 3px inset;
+
+}
+
+#textMidButXS{
+
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-size: 1rem;
+  border-top: rgba(17, 21, 245, 0.822)  1px inset;
+  border-right: rgba(17, 21, 245, 0.822)  1px inset;
+
 }
